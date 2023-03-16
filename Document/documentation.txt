@@ -1,4 +1,4 @@
-************************************ Documentação EN: *****************************************8
+************************************ Documentação EN: *****************************************
 Containers work like processes in the operating system. That's one of the reasons why it's a lightweight than a VM.
 
 PID - Provides isolation of processes running inside the container.
@@ -10,8 +10,12 @@ UTS - Provides kernel isolation. Acts as if the container were another host.
 Cgroups:
  - Ensure how the management of the amount of memory and other resources will be done automatically or manually.
 
+************************************* End of documentation EN ********************************** 
 
-************************************ Documentação PT: *****************************************8
+-----------------------------------------------------------------------------------------------------------
+
+************************************ Documentação PT: ******************************************
+
 Os containers funcionam como processos dentro do S.O. Esse é um dos motivos dele ser um pouco mais leve do que uma VM.
 
 PID - Provê isolamento dos processos rodando dentro do container.
@@ -22,3 +26,6 @@ UTS - Provê isolamento do kernel. Age como se o container fosse outro host.
 
 Cgroups:
  - Garantir como será feito gerenciamento da quantidade memoria e outros recursos de maneira automática ou manual.
+
+
+ ************************************* Fim da documentação PT ********************************** 
