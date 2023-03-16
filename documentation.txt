@@ -1,5 +1,6 @@
 Documentação PT:
-Os containers funcionam como processos dentro do S.O.
+Os containers funcionam como processos dentro do S.O. Esse é um dos motivos dele ser um pouco mais leve do que uma VM.
 
 
 Documentation EN:
+Containers work like processes in the operating system. That's one of the reasons why it's a lightweight than a VM.
