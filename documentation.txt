@@ -7,6 +7,8 @@ IPC - Provides communication isolation between processes and shared memory.
 MNT - Provides file system/mount point isolation.
 UTS - Provides kernel isolation. Acts as if the container were another host.
 
+Cgroups:
+ - Ensure how the definition of the amount of memory and other resources will be done automatically or manually.
 
 Documentação PT:
 Os containers funcionam como processos dentro do S.O. Esse é um dos motivos dele ser um pouco mais leve do que uma VM.
@@ -16,3 +18,6 @@ NET - Provê isolamento das interfaces de rede.
 IPC - Provê isolamento da comunicação entre processos e memória compartilhada.
 MNT - Provê isolamento do sistema de arquivos / pontos de montagem.
 UTS - Provê isolamento do kernel. Age como se o container fosse outro host.
+
+Cgroups:
+ - Garantir como será feito gerenciamento da quantidade memoria e outros recursos de maneira automática ou manual.
