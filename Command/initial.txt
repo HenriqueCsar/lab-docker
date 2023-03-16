@@ -13,3 +13,9 @@ command:docker pull ubuntu
 /*Run container*/
 command:docker run ubuntu
 command:docker run ubuntu sleep 1d
+
+/*Terminate a container that is running*/
+command:docker stop [IdContainer]
+
+/*Start a container after finished*/
+command:docker start [IdContainer]
