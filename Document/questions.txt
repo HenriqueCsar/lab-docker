@@ -6,6 +6,8 @@ Questions:
  - Q2: What does the 'docker run' command do?
  - R2: The docker run command is responsible for running a container on our host.
 
-
  - Q3: When we want to run a container and use the docker run command, a series of ordered steps takes place until the execution is actually done.
  - R3: Look for the image locally -> Download the image if you can't find it locally -> Validate the image hash -> Run the container.
+
+ - Q4: Recently we have seen about docker run and docker exec command. We know that both commands involve the flow of initializing and executing commands in containers, but in different contexts.
+ - R4: docker run creates a new container and runs it. Docker exec lets you run a command in a container that is already running.

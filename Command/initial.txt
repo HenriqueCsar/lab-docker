@@ -16,6 +16,8 @@ command:docker run ubuntu sleep 1d
 
 /*Terminate a container that is running*/
 command:docker stop [IdContainer]
+command:docker stop -t=0 [IdContainer]
+
 
 /*Start a container after finished*/
 command:docker start [IdContainer]
@@ -25,3 +27,7 @@ command:docker exec -it [IdContainer] bash
 
 /*pause -+- unpause container*/
 command:docker pause [IdContainer]
+command:docker unpause [IdContainer]
+
+/* remove container */
+command:docker rm [IdContainer]
