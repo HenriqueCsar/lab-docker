@@ -1,0 +1,5 @@
+Documentação PT:
+Os containers funcionam como processos dentro do S.O.
+
+
+Documentation EN:
