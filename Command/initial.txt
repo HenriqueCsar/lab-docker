@@ -18,7 +18,6 @@ command:docker run ubuntu sleep 1d
 command:docker stop [IdContainer]
 command:docker stop -t=0 [IdContainer]
 
-
 /*Start a container after finished*/
 command:docker start [IdContainer]
 
