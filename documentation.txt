@@ -1,6 +1,18 @@
+Documentation EN:
+Containers work like processes in the operating system. That's one of the reasons why it's a lightweight than a VM.
+
+PID - Provides isolation of processes running inside the container.
+NET - Provides isolation of network interfaces.
+IPC - Provides communication isolation between processes and shared memory.
+MNT - Provides file system/mount point isolation.
+UTS - Provides kernel isolation. Acts as if the container were another host.
+
+
 Documentação PT:
 Os containers funcionam como processos dentro do S.O. Esse é um dos motivos dele ser um pouco mais leve do que uma VM.
 
-
-Documentation EN:
-Containers work like processes in the operating system. That's one of the reasons why it's a lightweight than a VM.
+PID - Provê isolamento dos processos rodando dentro do container.
+NET - Provê isolamento das interfaces de rede.
+IPC - Provê isolamento da comunicação entre processos e memória compartilhada.
+MNT - Provê isolamento do sistema de arquivos / pontos de montagem.
+UTS - Provê isolamento do kernel. Age como se o container fosse outro host.
