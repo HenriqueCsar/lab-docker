@@ -3,9 +3,13 @@
 command: docker ps
 command: docker container ls
 
-/*Check all non-running containers*/
+/*Check run histories of containers*/
 command: docker ps -a
 command: docker container ls -a
 
-/*Download docker package manager images*/
+/*Download docker package manager images(Docker Hub)*/
 command:docker pull ubuntu
+
+/*Run container*/
+command:docker run ubuntu
+command:docker run ubuntu sleep 1d
