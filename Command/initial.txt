@@ -1,3 +1,11 @@
 
 /*Check running containers*/
-docker ps
+command: docker ps
+command: docker container ls
+
+/*Check all non-running containers*/
+command: docker ps -a
+command: docker container ls -a
+
+/*Download docker package manager images*/
+command:docker pull ubuntu
