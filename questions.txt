@@ -1,3 +1,7 @@
 Questions:
+
  - Q1: How docker containers manage to isolate themselves from the OS?
  - R1: Because of the use of the Namespace
+
+ - Q2: What does the 'docker run' command do?
+ - R2: The docker run command is responsible for running a container on our host.

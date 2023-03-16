@@ -1,4 +1,4 @@
-Documentation EN:
+************************************ Documentação EN: *****************************************8
 Containers work like processes in the operating system. That's one of the reasons why it's a lightweight than a VM.
 
 PID - Provides isolation of processes running inside the container.
@@ -8,9 +8,10 @@ MNT - Provides file system/mount point isolation.
 UTS - Provides kernel isolation. Acts as if the container were another host.
 
 Cgroups:
- - Ensure how the definition of the amount of memory and other resources will be done automatically or manually.
+ - Ensure how the management of the amount of memory and other resources will be done automatically or manually.
 
-Documentação PT:
+
+************************************ Documentação PT: *****************************************8
 Os containers funcionam como processos dentro do S.O. Esse é um dos motivos dele ser um pouco mais leve do que uma VM.
 
 PID - Provê isolamento dos processos rodando dentro do container.
