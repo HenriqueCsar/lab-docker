@@ -1,0 +1,8 @@
+/* -d run without the terminal getting stuck, -P map port to OS port. */
+docker run -d -P dockersamples/static-site
+
+/* check ports map */
+docker port [ContainerId] 
+
+/* -d run without the terminal getting stuck, -p map port to OS port. */
+docker run -d -p 8080:80 dockersamples/static-site
